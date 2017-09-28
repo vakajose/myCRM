@@ -18,8 +18,6 @@ Route::get('/prueba', function () {
     return view('\layouts\_app');
 });
 
-
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
